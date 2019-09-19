@@ -1,0 +1,40 @@
+
+.systemet{
+  display: grid;
+  grid-template-columns: repeat(18,1fr);
+  grid-gap: 5px;
+}
+.span-6{
+  grid-column: span 16;
+}
+.usynlig{
+  opacity: 0;
+}
+.span-10{
+  grid-column: span 10;
+  opacity: 0;
+}
+.grunnstoff{
+  border-style: solid;
+  border-radius: 8px;
+  border-color: lightgreen;
+}
+.systemet2{
+  display: grid;
+  grid-template-columns: repeat(15,1fr);
+  grid-gap: 5px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.grunnstoff2{
+  border-style: solid;
+  border-radius: 8px;
+  border-color: lightgreen;
+}
+.tall, .navn{
+  text-align: center;
+}
+.tall{
+  font-size: 20px;
+}
